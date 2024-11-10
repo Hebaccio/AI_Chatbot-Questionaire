@@ -1,0 +1,10 @@
+<div class="full-page">
+  <div class="first-containers">
+    <div class="inputt">
+      <input class="inputtt" type="text" [(ngModel)]="prompt" placeholder="Ask away!">
+      <button (click)="SendPrompt()">Send</button>
+    </div>
+    <div class="response" [innerHTML]="formattedResponse"></div>
+  </div>
+</div>
+
